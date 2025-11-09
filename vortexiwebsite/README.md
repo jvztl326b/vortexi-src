@@ -1,5 +1,3 @@
-# Are Kitties Real!?
-Indeed they are.
 # Vortexi Source.
 ### Requirements 
  - Linux Server ( For Production environment )
@@ -24,7 +22,7 @@ Indeed they are.
  - Amazon S3 Bucket ( **USE_LOCAL_STORAGE** must be enabled if you are not planning to use a S3 Bucket )
 
 ## Configuration
-Copy `config.example.py` and name it as `config.py` then place it in the same directory as this readme file
+You can view the currently set values in config.py, most of the values would be set to something about being dead and being secure lmao, just edit those ones and you will be good.
 
 1. **FLASK_SESSION_KEY** - Used for salting passwords and 2FA Secret Generation, please change to a random long string and never change it ever again!
 ~~2. **AuthorizationKey** - Added for debugging and bypassing ratelimits, please also change to a random long string~~ Removed from codebase

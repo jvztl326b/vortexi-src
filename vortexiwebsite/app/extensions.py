@@ -48,7 +48,7 @@ def get_user_id() -> str:
     return f"user_id:{ UserTokenInfo[0] }"
 
 limiter = Limiter(
-    get_remote_address,
+    key_func=get_remote_address,
     storage_uri=Config.FLASK_LIMITED_STORAGE_URI,
     strategy="fixed-window",
     headers_enabled=True,
@@ -201,7 +201,7 @@ def item_release_pool_releaser():
                         },
                         "url": f"{Config.BaseURL}/catalog/{AssetObj.id}/--",
                         "footer": {
-                            "text": f"Vortexi"
+                            "text": f"KittyBlox"
                         },
                         "timestamp": datetime.datetime.utcnow().isoformat()
                     }]
@@ -254,7 +254,7 @@ This is an automated message to inform you that your Builders Club membership ha
 If you have any questions or concerns, please contact our support in our Discord Server
 
 Sincerely,
-The Vortexi Team""",
+The KittyBlox Team""",
                         userid = MembershipObj.user_id
                     )
                 # Remove the membership
@@ -364,7 +364,7 @@ Your discord account was unlinked from your account because \"{Reason}\", if you
 If you have any questions or concerns, please contact our support in our Discord Server
 
 Sincerely,
-The Vortexi Team""",
+The KittyBlox Team""",
                 userid = UserObj.id
             )
             CurrentUserMembership : MembershipType = GetUserMembership(UserObj)
@@ -710,5 +710,3 @@ def heartbeat():
         db.session.commit()
 
         redis_controller.delete("heartbeat")
-
-

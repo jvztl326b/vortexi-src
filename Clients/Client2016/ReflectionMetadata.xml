@@ -80,13 +80,6 @@
         <string name="Name">TeleportService</string>
         <string name="summary">Allows players to seamlessly leave a game and join another</string>
       </Properties>
-      <Item class="ReflectionMetadataMember">
-        <Properties>
-          <string name="Name">CustomizedTeleportUI</string>
-          <bool name="Deprecated">true</bool>
-          <string name="summary">Deprecated</string>
-        </Properties>
-      </Item>
     </Item>
     <Item class="ReflectionMetadataClass">
       <Properties>
@@ -194,7 +187,7 @@
         <Item class="ReflectionMetadataMember">
           <Properties>
             <string name="Name">GetCollection</string>
-            <string name="summary">Returns a table for the assets stored in the category.  A category is an setId from www.roblox.com that links to a set.  &lt;a href="http://wiki.roblox.com/index.php?title=API:Class/InsertService/GetCollection" target="_blank"&gt;More info on table format&lt;/a&gt;. &lt;a href="http://wiki.roblox.com/index.php/Sets" target="_blank"&gt;More info on sets&lt;/a&gt;</string>
+            <string name="summary">Returns a table for the assets stored in the category.  A category is an setId from www.roblox.com that links to a set.  &lt;a href="http://wiki.roblox.com/index.php/GetCollection_(Method)" target="_blank"&gt;More info on table format&lt;/a&gt;. &lt;a href="http://wiki.roblox.com/index.php/Sets" target="_blank"&gt;More info on sets&lt;/a&gt;</string>
           </Properties>
         </Item>
         <Item class="ReflectionMetadataMember">
@@ -249,7 +242,7 @@
         <Item class="ReflectionMetadataMember">
           <Properties>
             <string name="Name">LoadAsset</string>
-            <string name="summary">Returns a Model containing the Instance that resides at AssetId on the web. This call will also yield the script until the model is returned. Script execution can still continue, however, if you use a &lt;a href="http://wiki.roblox.com/index.php?title=Coroutine" target="_blank"&gt;coroutine&lt;/a&gt;.</string>
+            <string name="summary">Returns a Model containing the Instance that resides at AssetId on the web. This call will also yield the script until the model is returned. Script execution can still continue, however, if you use a &lt;a href="http://wiki.roblox.com/index.php/Function_Dump/Coroutine_Manipulationcoroutine" target="_blank"&gt;coroutine&lt;/a&gt;.</string>
           </Properties>
         </Item>
         <Item class="ReflectionMetadataMember">
@@ -265,14 +258,6 @@
         <string name="Name">Hat</string>
         <string name="ExplorerOrder">3</string>
         <string name="ExplorerImageIndex">45</string>
-        <bool name="Deprecated">true</bool>
-      </Properties>
-    </Item>
-    <Item class="ReflectionMetadataClass">
-      <Properties>
-        <string name="Name">Accessory</string>
-        <string name="ExplorerOrder">3</string>
-        <string name="ExplorerImageIndex">32</string>
       </Properties>
     </Item>
     <Item class="ReflectionMetadataClass">
@@ -288,7 +273,6 @@
     <Item class="ReflectionMetadataClass">
       <Properties>
         <string name="Name">MotorFeature</string>
-        <bool name="Deprecated">true</bool>
       </Properties>
     </Item>
     <Item class="ReflectionMetadataClass">
@@ -565,15 +549,6 @@
         <string name="ExplorerOrder">3</string>
         <string name="ExplorerImageIndex">80</string>
       </Properties>
-      <Item class="ReflectionMetadataProperties">
-        <Item class="ReflectionMetadataMember">
-          <Properties>
-            <string name="Name">LightEmission</string>
-            <double name="UIMinimum">0</double>
-            <double name="UIMaximum">1</double>
-          </Properties>
-        </Item>
-      </Item>
     </Item>
 
     <Item class="ReflectionMetadataClass">
@@ -613,7 +588,7 @@
         <Item class="ReflectionMetadataMember">
           <Properties>
             <string name="Name">ExplosionType</string>
-            <string name="summary">Defines the behavior of the Explosion. &lt;a href="http://wiki.roblox.com/index.php/ExplosionType" target="_blank"&gt;More info&lt;/a&gt;</string>
+            <string name="summary">Defines the behavior of the Explosion. &lt;a href="http://wiki.roblox.com/index.php/ExplosionType_(Enum)" target="_blank"&gt;More info&lt;/a&gt;</string>
           </Properties>
         </Item>
       </Item>
@@ -671,7 +646,7 @@
     <Item class="ReflectionMetadataClass">
       <Properties>
         <string name="Name">SkateboardPlatform</string>
-        <bool name="Deprecated">true</bool>
+
         <string name="ExplorerOrder">3</string>
         <string name="ExplorerImageIndex">35</string>
       </Properties>
@@ -694,7 +669,6 @@
     <Item class="ReflectionMetadataClass">
       <Properties>
         <string name="Name">Flag</string>
-        <bool name="Deprecated">true</bool>
         <string name="ExplorerOrder">3</string>
         <string name="ExplorerImageIndex">38</string>
       </Properties>
@@ -716,7 +690,6 @@
     <Item class="ReflectionMetadataClass">
       <Properties>
         <string name="Name">FlagStand</string>
-        <bool name="Deprecated">true</bool>
         <string name="ExplorerOrder">3</string>
         <string name="ExplorerImageIndex">39</string>
       </Properties>
@@ -738,7 +711,7 @@
         <Item class="ReflectionMetadataMember">
           <Properties>
             <string name="Name">Face</string>
-            <string name="summary">Describes the face of the Part the decal will be applied to. &lt;a href="http://wiki.roblox.com/index.php/NormalId" target="_blank"&gt;More info&lt;/a&gt;</string>
+            <string name="summary">Describes the face of the Part the decal will be applied to. &lt;a href="http://wiki.roblox.com/index.php/NormalId_(Enum)" target="_blank"&gt;More info&lt;/a&gt;</string>
           </Properties>
         </Item>
         <Item class="ReflectionMetadataMember">
@@ -757,8 +730,6 @@
           <Properties>
             <string name="Name">Transparency</string>
             <string name="summary">How visible the decal is.  1 is completely invisible, while 0 is completely opaque</string>
-            <double name="UIMinimum">0</double>
-            <double name="UIMaximum">1</double>
           </Properties>
         </Item>
       </Item>
@@ -775,7 +746,6 @@
         <string name="Name">Message</string>
         <string name="ExplorerOrder">11</string>
         <string name="ExplorerImageIndex">33</string>
-        <bool name="Deprecated">true</bool>
         <string name="PreferredParent">StarterGui</string>
       </Properties>
     </Item>
@@ -857,7 +827,6 @@
       <Properties>
         <string name="Name">CustomEvent</string>
         <string name="ExplorerOrder">3</string>
-        <bool name="Deprecated">true</bool>
         <string name="ExplorerImageIndex">4</string>
       </Properties>
     </Item>
@@ -865,14 +834,12 @@
       <Properties>
         <string name="Name">CustomEventReceiver</string>
         <string name="ExplorerOrder">3</string>
-        <bool name="Deprecated">true</bool>
         <string name="ExplorerImageIndex">4</string>
       </Properties>
     </Item>
     <Item class="ReflectionMetadataClass">
       <Properties>
         <string name="Name">TextureTrail</string>
-        <bool name="Deprecated">true</bool>
         <string name="ExplorerOrder">3</string>
         <string name="ExplorerImageIndex">4</string>
       </Properties>
@@ -880,7 +847,6 @@
     <Item class="ReflectionMetadataClass">
       <Properties>
         <string name="Name">FloorWire</string>
-        <bool name="Deprecated">true</bool>
         <string name="ExplorerOrder">3</string>
         <string name="ExplorerImageIndex">4</string>
         <string name="summary">Renders a thin cylinder than can be adorned with textures that 'flow' from one object to the next. Has basic pathing abilities and attempts to to not intersect anything. &lt;a href="http://wiki.roblox.com/index.php/FloorWire_Guide" target="_blank"&gt;More info&lt;/a&gt;</string>
@@ -889,7 +855,7 @@
         <Item class="ReflectionMetadataMember">
           <Properties>
             <string name="Name">CycleOffset</string>
-            <string name="summary">Controls how the decals are positioned along the wire. &lt;a href="http://wiki.roblox.com/index.php/CycleOffset" target="_blank"&gt;More info&lt;/a&gt;</string>
+            <string name="summary">Controls how the decals are positioned along the wire. &lt;a href="http://wiki.roblox.com/index.php/CycleOffset_(Property)" target="_blank"&gt;More info&lt;/a&gt;</string>
           </Properties>
         </Item>
         <Item class="ReflectionMetadataMember">
@@ -1170,8 +1136,8 @@
       <Item class="ReflectionMetadataFunctions">
         <Item class="ReflectionMetadataMember">
           <Properties>
-            <string name="Name">BindAction</string>
-            <string name="summary">Binds 'functionToBind' to fire when any 'inputTypes' happen. InputTypes can be variable in number and type. Types can be Enum.KeyCode, single character strings corresponding to keys, or Enum.UserInputType. 'actionName' is a key used by many other ContextActionService functions to query state. 'createTouchButton' if true will create a button on screen on touch devices.  This button will fire 'functionToBind' with three arguments: first argument is the actionName, second argument is the UserInputState of the input, and the third is the InputObject that fired this function.</string>
+            <string name="Name">BindActionToInputTypes</string>
+            <string name="summary">Binds 'functionToBind' to fire when any 'inputTypes' happen. InputTypes can be variable in number and type. Types can be Enum.KeyCode, single strings corresponding to keys, or Enum.UserInputType. 'actionName' is a key used by many other ContextActionService functions to query state. 'createTouchButton' if true will create a button on screen on touch devices.  This button will fire 'functionToBind'.</string>
           </Properties>
         </Item>
         <Item class="ReflectionMetadataMember">
@@ -1580,7 +1546,7 @@
           <Properties>
             <string name="Name">NameOcclusion</string>
 
-            <string name="summary">Sets how to display other humanoid names to this humanoid's player. &lt;a href="http://wiki.roblox.com/index.php/NameOcclusion" target="_blank"&gt;More info&lt;/a&gt;</string>
+            <string name="summary">Sets how to display other humanoid names to this humanoid's player. &lt;a href="http://wiki.roblox.com/index.php/NameOcclusion_(Enum)" target="_blank"&gt;More info&lt;/a&gt;</string>
           </Properties>
           <Properties>
             <string name="Name">Health</string>
@@ -1628,7 +1594,7 @@
     <Item class="ReflectionMetadataClass">
       <Properties>
         <string name="Name">Skin</string>
-        <bool name="Deprecated">true</bool>
+
         <string name="ExplorerOrder">0</string>
       </Properties>
     </Item>
@@ -1838,12 +1804,6 @@
             <string name="summary">Returns a read-only table of this Object's children</string>
           </Properties>
         </Item>
-		  <Item class="ReflectionMetadataMember">
-			  <Properties>
-				  <string name="Name">GetDescendants</string>
-				  <string name="summary">Returns a ready-only table of this Object's descendants</string>
-			  </Properties>
-		  </Item>
         <Item class="ReflectionMetadataMember">
           <Properties>
             <string name="Name">Remove</string>
@@ -1918,15 +1878,8 @@
 
         <Item class="ReflectionMetadataMember">
           <Properties>
-            <string name="Name">MaxTorque</string>
-            <string name="summary">The maximum torque that will be exerted on the Part</string>
-          </Properties>
-        </Item>
-        <Item class="ReflectionMetadataMember">
-          <Properties>
             <string name="Name">maxTorque</string>
-            <bool name="Deprecated">true</bool>
-            <string name="summary">Use MaxTorque instead</string>
+            <string name="summary">The maximum torque that will be exerted on the Part</string>
           </Properties>
         </Item>
         <Item class="ReflectionMetadataMember">
@@ -1943,15 +1896,8 @@
         </Item>
         <Item class="ReflectionMetadataMember">
           <Properties>
-            <string name="Name">CFrame</string>
-            <string name="summary">The cframe that this force is trying to orient its parent Part to.  Note: this force only uses the rotation of the cframe, not the position.</string>
-          </Properties>
-        </Item>
-        <Item class="ReflectionMetadataMember">
-          <Properties>
             <string name="Name">cframe</string>
-            <bool name="Deprecated">true</bool>
-            <string name="summary">Use CFrame instead</string>
+            <string name="summary">the cframe that this force is trying to orient its parent Part to.  Note: this force only uses the rotation of the cframe, not the position.</string>
           </Properties>
         </Item>
       </Item>
@@ -1966,15 +1912,8 @@
 
         <Item class="ReflectionMetadataMember">
           <Properties>
-            <string name="Name">MaxForce</string>
-            <string name="summary">The maximum force that will be exerted on the Part</string>
-          </Properties>
-        </Item>
-        <Item class="ReflectionMetadataMember">
-          <Properties>
             <string name="Name">maxForce</string>
-            <bool name="Deprecated">true</bool>
-            <string name="summary">Use MaxForce instead</string>
+            <string name="summary">The maximum force that will be exerted on the Part</string>
           </Properties>
         </Item>
         <Item class="ReflectionMetadataMember">
@@ -1991,15 +1930,8 @@
         </Item>
         <Item class="ReflectionMetadataMember">
           <Properties>
-            <string name="Name">Position</string>
-            <string name="summary">The Vector3 that this force is trying to position its parent Part to.</string>
-          </Properties>
-        </Item>
-        <Item class="ReflectionMetadataMember">
-          <Properties>
             <string name="Name">position</string>
-            <bool name="Deprecated">true</bool>
-            <string name="summary">Use position instead</string>
+            <string name="summary">The Vector3 that this force is trying to position its parent Part to.</string>
           </Properties>
         </Item>
       </Item>
@@ -2022,15 +1954,8 @@
       <Item class="ReflectionMetadataProperties">
         <Item class="ReflectionMetadataMember">
           <Properties>
-            <string name="Name">MaxForce</string>
-            <string name="summary">The maximum force that will be exerted on the Part in each axis</string>
-          </Properties>
-        </Item>
-        <Item class="ReflectionMetadataMember">
-          <Properties>
             <string name="Name">maxForce</string>
-            <bool name="Deprecated">true</bool>
-            <string name="summary">Use MaxForce instead</string>
+            <string name="summary">The maximum force that will be exerted on the Part in each axis</string>
           </Properties>
         </Item>
         <Item class="ReflectionMetadataMember">
@@ -2041,15 +1966,8 @@
         </Item>
         <Item class="ReflectionMetadataMember">
           <Properties>
-            <string name="Name">Velocity</string>
-            <string name="summary">The velocity this system tries to achieve.  How quickly the system reaches this velocity (if ever) is defined by P.</string>
-          </Properties>
-        </Item>
-        <Item class="ReflectionMetadataMember">
-          <Properties>
             <string name="Name">velocity</string>
-            <bool name="Deprecated">true</bool>
-            <string name="summary">Use Velocity instead</string>
+            <string name="summary">The velocity this system tries to achieve.  How quickly the system reaches this velocity (if ever) is defined by P.</string>
           </Properties>
         </Item>
       </Item>
@@ -2062,26 +1980,16 @@
       </Properties>
       <Item class="ReflectionMetadataProperties">
         <Item class="ReflectionMetadataMember">
-          <string name="Name">MaxTorque</string>
-          <string name="summary">The maximum torque that will be exerted on the Part in each axis</string>
-        </Item>
-        <Item class="ReflectionMetadataMember">
           <string name="Name">maxTorque</string>
-          <bool name="Deprecated">true</bool>
-          <string name="summary">Use MaxTorque instead</string>
+          <string name="summary">The maximum torque that will be exerted on the Part in each axis</string>
         </Item>
         <Item class="ReflectionMetadataMember">
           <string name="Name">P</string>
           <string name="summary">The amount of power we add to the system.  The higher the power, the quicker the force will achieve its goal.</string>
         </Item>
         <Item class="ReflectionMetadataMember">
-          <string name="Name">AngularVelocity</string>
-          <string name="summary">The rotational velocity this system tries to achieve.  How quickly the system reaches this velocity is defined by P.</string>
-        </Item>
-        <Item class="ReflectionMetadataMember">
           <string name="Name">angularVelocity</string>
-          <bool name="Deprecated">true</bool>
-          <string name="summary">Use AngularVelocity instead</string>
+          <string name="summary">The rotational velocity this system tries to achieve.  How quickly the system reaches this velocity is defined by P.</string>
         </Item>
       </Item>
     </Item>
@@ -2094,13 +2002,8 @@
       </Properties>
       <Item class="ReflectionMetadataProperties">
         <Item class="ReflectionMetadataMember">
-          <string name="Name">Force</string>
-          <string name="summary">The continual force exerted on an object, defined in each axis.</string>
-        </Item>
-        <Item class="ReflectionMetadataMember">
           <string name="Name">force</string>
-          <bool name="Deprecated">true</bool>
-          <string name="summary">Use Force instead</string>
+          <string name="summary">The continual force exerted on an object, defined in each axis.</string>
         </Item>
       </Item>
     </Item>
@@ -2114,28 +2017,14 @@
 
         <Item class="ReflectionMetadataMember">
           <Properties>
-            <string name="Name">Force</string>
+            <string name="Name">force</string>
             <string name="summary">The power continually applied to this force</string>
           </Properties>
         </Item>
         <Item class="ReflectionMetadataMember">
           <Properties>
-            <string name="Name">force</string>
-            <bool name="Deprecated">true</bool>
-            <string name="summary">Use Force instead</string>
-          </Properties>
-        </Item>
-        <Item class="ReflectionMetadataMember">
-          <Properties>
-            <string name="Name">Location</string>
-            <string name="summary">The Vector3 location of where to apply the force to. </string>
-          </Properties>
-        </Item>
-        <Item class="ReflectionMetadataMember">
-          <Properties>
             <string name="Name">location</string>
-            <bool name="Deprecated">true</bool>
-            <string name="summary">Use Location instead</string>
+            <string name="summary">The Vector3 location of where to apply the force to. </string>
           </Properties>
         </Item>
       </Item>
@@ -2143,7 +2032,7 @@
     <Item class="ReflectionMetadataClass">
       <Properties>
         <string name="Name">Hole</string>
-        <bool name="Deprecated">true</bool>
+
         <string name="ExplorerOrder">0</string>
       </Properties>
     </Item>
@@ -2324,7 +2213,6 @@
     <Item class="ReflectionMetadataClass">
       <Properties>
         <string name="Name">Status</string>
-        <bool name="Deprecated">true</bool>
         <string name="ExplorerOrder">10</string>
         <string name="ExplorerImageIndex">2</string>
       </Properties>
@@ -2411,7 +2299,6 @@
     <Item class="ReflectionMetadataClass">
       <Properties>
         <string name="Name">HopperBin</string>
-        <bool name="Deprecated">true</bool>
         <string name="ExplorerOrder">24</string>
         <string name="ExplorerImageIndex">22</string>
       </Properties>
@@ -2433,19 +2320,12 @@
         <Item class="ReflectionMetadataMember">
           <Properties>
             <string name="Name">CameraType</string>
-            <string name="summary">Defines how the camera will behave. &lt;a href="http://wiki.roblox.com/index.php/CameraType" target="_blank"&gt;More info&lt;/a&gt;</string>
+            <string name="summary">Defines how the camera will behave. &lt;a href="http://wiki.roblox.com/index.php/CameraType_(Enum)" target="_blank"&gt;More info&lt;/a&gt;</string>
           </Properties>
         </Item>
         <Item class="ReflectionMetadataMember">
           <Properties>
             <string name="Name">CoordinateFrame</string>
-            <bool name="Deprecated">true</bool>
-            <string name="summary">The current position and rotation of the Camera.  For most CameraTypes, the rotation is set such that the CoordinateFrame lookVector is pointing at the Focus.</string>
-          </Properties>
-        </Item>
-        <Item class="ReflectionMetadataMember">
-          <Properties>
-            <string name="Name">CFrame</string>
             <string name="summary">The current position and rotation of the Camera.  For most CameraTypes, the rotation is set such that the CoordinateFrame lookVector is pointing at the Focus.</string>
           </Properties>
         </Item>
@@ -2670,7 +2550,7 @@
         <Item class="ReflectionMetadataMember">
           <Properties>
             <string name="Name">GeographicLatitude</string>
-            <string name="summary">The latitude position the level is placed at.  This affects sun position. &lt;a href="http://wiki.roblox.com/index.php/GeographicLatitude" target="_blank"&gt;More info&lt;/a&gt;</string>
+            <string name="summary">The latitude position the level is placed at.  This affects sun position. &lt;a href="http://wiki.roblox.com/index.php/GeographicLatitude_(Property)" target="_blank"&gt;More info&lt;/a&gt;</string>
           </Properties>
         </Item>
         <Item class="ReflectionMetadataMember">
@@ -2812,7 +2692,7 @@
         <Item class="ReflectionMetadataMember">
           <Properties>
             <string name="Name">CameraMode</string>
-            <string name="summary">An enum that describes how a Player's camera is allowed to behave. &lt;a href="http://wiki.roblox.com/index.php/CameraMode" target="_blank"&gt;More info&lt;/a&gt;.</string>
+            <string name="summary">An enum that describes how a Player's camera is allowed to behave. &lt;a href="http://wiki.roblox.com/index.php/CameraMode_(Enum)" target="_blank"&gt;More info&lt;/a&gt;.</string>
           </Properties>
         </Item>
         <Item class="ReflectionMetadataMember">
@@ -2905,20 +2785,6 @@
           </Properties>
         </Item>
       </Item>
-      <Item class="ReflectionMetadataProperties">
-        <Item class="ReflectionMetadataMember">
-          <Properties>
-            <string name="Name">PGSPhysicsSolverEnabled</string>
-            <string name="summary">Boolean used to enable the experimental physics solver</string>
-          </Properties>
-        </Item>
-        <Item class="ReflectionMetadataMember">
-          <Properties>
-            <string name="Name">FallenPartsDestroyHeight</string>
-            <string name="summary">Sets the height at which falling characters and parts are destroyed. This property is not scriptable and can only be set in Studio</string>
-          </Properties>
-        </Item>
-      </Item>
     </Item>
 
     <Item class="ReflectionMetadataClass">
@@ -2959,16 +2825,12 @@
           <Properties>
             <string name="Name">Elasticity</string>
             <string name="summary">A float value ranging from 0.0f to 1.0f. Sets how much the Part will rebound against another. a value of 1 is like a superball, and 0 is like a lead block.</string>
-            <double name="UIMinimum">0</double>
-            <double name="UIMaximum">1</double>
           </Properties>
         </Item>
         <Item class="ReflectionMetadataMember">
           <Properties>
             <string name="Name">Friction</string>
             <string name="summary">A float value ranging from 0.0f to 1.0f. Sets how much the Part will be able to slide. a value of 1 is no sliding, and 0 is no friction, so infinite sliding.</string>
-            <double name="UIMinimum">0</double>
-            <double name="UIMaximum">2</double>
           </Properties>
         </Item>
         <Item class="ReflectionMetadataMember">
@@ -2980,15 +2842,13 @@
         <Item class="ReflectionMetadataMember">
           <Properties>
             <string name="Name">Material</string>
-            <string name="summary">Specifies the look and feel the Part should have.  Note: this does not define the color the Part is, see BrickColor for that. &lt;a href="http://wiki.roblox.com/index.php/Material" target="_blank"&gt;More info&lt;/a&gt;</string>
+            <string name="summary">Specifies the look and feel the Part should have.  Note: this does not define the color the Part is, see BrickColor for that. &lt;a href="http://wiki.roblox.com/index.php/Material_(Enum)" target="_blank"&gt;More info&lt;/a&gt;</string>
           </Properties>
         </Item>
         <Item class="ReflectionMetadataMember">
           <Properties>
             <string name="Name">Reflectance</string>
             <string name="summary">Specifies how shiny the Part is. A value of 1 is completely reflective (chrome), while a value of 0 is no reflectance (concrete wall)</string>
-            <double name="UIMinimum">0</double>
-            <double name="UIMaximum">1</double>
           </Properties>
         </Item>
         <Item class="ReflectionMetadataMember">
@@ -3007,8 +2867,6 @@
           <Properties>
             <string name="Name">Transparency</string>
             <string name="summary">Sets how visible an object is. A value of 1 makes the object invisible, while a value of 0 makes the object opaque.</string>
-            <double name="UIMinimum">0</double>
-            <double name="UIMaximum">1</double>
           </Properties>
         </Item>
         <Item class="ReflectionMetadataMember">
@@ -3030,7 +2888,7 @@
         <Item class="ReflectionMetadataMember">
           <Properties>
             <string name="Name">MakeJoints</string>
-            <string name="summary">Creates the appropriate SurfaceJoints with all parts that are touching this Instance (including internal joints in the Instance, as in a Model).  This uses the SurfaceTypes defined on the surfaces of parts to create the appropriate welds. &lt;a href="http://wiki.roblox.com/index.php/MakeJoints" target="_blank"&gt;More info&lt;/a&gt;</string>
+            <string name="summary">Creates the appropriate SurfaceJoints with all parts that are touching this Instance (including internal joints in the Instance, as in a Model).  This uses the SurfaceTypes defined on the surfaces of parts to create the appropriate welds. &lt;a href="http://wiki.roblox.com/index.php/MakeJoints_(Method)" target="_blank"&gt;More info&lt;/a&gt;</string>
           </Properties>
         </Item>
         <Item class="ReflectionMetadataMember">
@@ -3117,7 +2975,6 @@
         <string name="Name">PrismPart</string>
         <string name="summary">A Prism Part</string>
         <bool name="Browsable">false</bool>
-        <bool name="Deprecated">true</bool>
         <string name="ExplorerOrder">12</string>
         <string name="ExplorerImageIndex">1</string>
       </Properties>
@@ -3127,7 +2984,6 @@
         <string name="Name">PyramidPart</string>
         <string name="summary">A Pyramid Part</string>
         <bool name="Browsable">false</bool>
-        <bool name="Deprecated">true</bool>
         <string name="ExplorerOrder">12</string>
         <string name="ExplorerImageIndex">1</string>
       </Properties>
@@ -3137,7 +2993,6 @@
         <string name="Name">ParallelRampPart</string>
         <string name="summary">A ParallelRamp Part</string>
         <bool name="Browsable">false</bool>
-        <bool name="Deprecated">true</bool>
         <string name="ExplorerOrder">12</string>
         <string name="ExplorerImageIndex">1</string>
       </Properties>
@@ -3147,7 +3002,6 @@
         <string name="Name">RightAngleRampPart</string>
         <string name="summary">A RightAngleRamp Part</string>
         <bool name="Browsable">false</bool>
-        <bool name="Deprecated">true</bool>
         <string name="ExplorerOrder">12</string>
         <string name="ExplorerImageIndex">1</string>
       </Properties>
@@ -3167,14 +3021,6 @@
         <string name="ExplorerOrder">13</string>
         <string name="ExplorerImageIndex">46</string>
       </Properties>
-      <Item class="ReflectionMetadataProperties">
-        <Item class="ReflectionMetadataMember">
-          <Properties>
-            <string name="Name">SelectionImageObject</string>
-            <string name="summary">Overrides the default selection adornment (used for gamepads). For best results, this should point to a GuiObject.</string>
-          </Properties>
-        </Item>
-      </Item>
     </Item>
     <Item class="ReflectionMetadataClass">
       <Properties>
@@ -3184,23 +3030,6 @@
         <string name="ExplorerImageIndex">78</string>
       </Properties>
     </Item>
-    <Item class="ReflectionMetadataClass">
-      <Properties>
-        <string name="Name">StarterPlayerScripts</string>
-        <string name="summary">A container instance that contains LocalScripts.  LocalScript objects that are placed in this container will be copied to new Players on startup.</string>
-        <string name="ExplorerOrder">13</string>
-        <string name="ExplorerImageIndex">78</string>
-      </Properties>
-    </Item>
-    <Item class="ReflectionMetadataClass">
-      <Properties>
-        <string name="Name">StarterCharacterScripts</string>
-        <string name="summary">A container instance that contains LocalScripts.  LocalScript objects that are placed in this container will be copied to new characters on startup.</string>
-        <string name="ExplorerOrder">13</string>
-        <string name="ExplorerImageIndex">78</string>
-      </Properties>
-    </Item>
-
     <Item class="ReflectionMetadataClass">
       <Properties>
         <string name="Name">GuiMain</string>
@@ -3405,19 +3234,19 @@
         <Item class="ReflectionMetadataMember">
           <Properties>
             <string name="Name">TweenPosition</string>
-            <string name="summary">Smoothly moves a GuiObject from its current position to 'endPosition'. The only required argument is 'endPosition'. &lt;a href="http://wiki.roblox.com/index.php/TweenPosition" target="_blank"&gt;More info&lt;/a&gt; </string>
+            <string name="summary">Smoothly moves a GuiObject from its current position to 'endPosition'. The only required argument is 'endPosition'. &lt;a href="http://wiki.roblox.com/index.php/TweenPosition_(Method)" target="_blank"&gt;More info&lt;/a&gt; </string>
           </Properties>
         </Item>
         <Item class="ReflectionMetadataMember">
           <Properties>
             <string name="Name">TweenSize</string>
-            <string name="summary">Smoothly translates a GuiObject's current size to 'endSize'. The only required argument is 'endSize'. &lt;a href="http://wiki.roblox.com/index.php/TweenSize" target="_blank"&gt;More info&lt;/a&gt; </string>
+            <string name="summary">Smoothly translates a GuiObject's current size to 'endSize'. The only required argument is 'endSize'. &lt;a href="http://wiki.roblox.com/index.php/TweenSize_(Method)" target="_blank"&gt;More info&lt;/a&gt; </string>
           </Properties>
         </Item>
         <Item class="ReflectionMetadataMember">
           <Properties>
             <string name="Name">TweenSizeAndPosition</string>
-            <string name="summary">Smoothly translates a GuiObject's current size to 'endSize', and also smoothly translates the GuiObject's current position to 'endPosition'. The only required arguments are 'endSize' and 'endPosition'. &lt;a href="http://wiki.roblox.com/index.php/TweenSizeAndPosition" target="_blank"&gt;More info&lt;/a&gt; </string>
+            <string name="summary">Smoothly translates a GuiObject's current size to 'endSize', and also smoothly translates the GuiObject's current position to 'endPosition'. The only required arguments are 'endSize' and 'endPosition'. &lt;a href="http://wiki.roblox.com/index.php/TweenSizeAndPosition_(Method)" target="_blank"&gt;More info&lt;/a&gt; </string>
           </Properties>
         </Item>
       </Item>
@@ -3439,8 +3268,6 @@
           <Properties>
             <string name="Name">BackgroundTransparency</string>
             <string name="summary">A number value that specifies how transparent the background of the GuiObject is. This value is ignored if the Style property (not found on all GuiObjects) is set to something besides custom.</string>
-            <double name="UIMinimum">0</double>
-            <double name="UIMaximum">1</double>
           </Properties>
         </Item>
         <Item class="ReflectionMetadataMember">
@@ -3482,7 +3309,7 @@
         <Item class="ReflectionMetadataMember">
           <Properties>
             <string name="Name">SizeConstraint</string>
-            <string name="summary">The direction(s) that an object can be resized in. &lt;a href="http://wiki.roblox.com/index.php/SizeConstraint" target="_blank"&gt;More info&lt;/a&gt;.</string>
+            <string name="summary">The direction(s) that an object can be resized in. &lt;a href="http://wiki.roblox.com/index.php/SizeConstraint_(Enum)" target="_blank"&gt;More info&lt;/a&gt;.</string>
           </Properties>
         </Item>
         <Item class="ReflectionMetadataMember">
@@ -3503,12 +3330,6 @@
             <string name="Name">BorderColor</string>
             <bool name="Deprecated">true</bool>
             <string name="summary">Deprecated. Use BorderColor3 instead</string>
-          </Properties>
-        </Item>
-        <Item class="ReflectionMetadataMember">
-          <Properties>
-            <string name="Name">SelectionImageObject</string>
-            <string name="summary">Overrides the default selection adornment (used for gamepads). For best results, this should point to a GuiObject.</string>
           </Properties>
         </Item>
       </Item>
@@ -3616,7 +3437,7 @@
         <Item class="ReflectionMetadataMember">
           <Properties>
             <string name="Name">Style</string>
-            <string name="summary">Determines how a frame will look. Uses Enum.FrameStyle. &lt;a href="http://wiki.roblox.com/index.php?title=API:Enum/FrameStyle" target="_blank"&gt;More info&lt;/a&gt;</string>
+            <string name="summary">Determines how a frame will look. Uses Enum.FrameStyle. &lt;a href="http://wiki.roblox.com/index.php/Framestyle" target="_blank"&gt;More info&lt;/a&gt;</string>
           </Properties>
         </Item>
       </Item>
@@ -3692,19 +3513,7 @@
         <Item class="ReflectionMetadataMember">
           <Properties>
             <string name="Name">Image</string>
-            <string name="summary">Specifies the id of the texture to display. &lt;a href="http://wiki.roblox.com/index.php?title=API:Class/ImageLabel/Image" target="_blank"&gt;More info&lt;/a&gt;</string>
-          </Properties>
-        </Item>
-        <Item class="ReflectionMetadataMember">
-          <Properties>
-            <string name="Name">ScaleType</string>
-            <string name="summary">Specifies how an image should be displayed. See ScaleType for more info.</string>
-          </Properties>
-        </Item>
-        <Item class="ReflectionMetadataMember">
-          <Properties>
-            <string name="Name">SliceCenter</string>
-            <string name="summary">If ScaleType is set to Slice, this Rect is used to specify the central part of the image. Everything outside of this is considered to be the border.</string>
+            <string name="summary">Specifies the id of the texture to display. &lt;a href="http://wiki.roblox.com/index.php/Image" target="_blank"&gt;More info&lt;/a&gt;</string>
           </Properties>
         </Item>
       </Item>
@@ -3787,7 +3596,7 @@
         <Item class="ReflectionMetadataMember">
           <Properties>
             <string name="Name">Style</string>
-            <string name="summary">Determines how a button will look, including mouse event states. Uses Enum.ButtonStyle. &lt;a href="http://wiki.roblox.com/index.php?title=API:Class/GuiButton/Style" target="_blank"&gt;More info&lt;/a&gt;</string>
+            <string name="summary">Determines how a button will look, including mouse event states. Uses Enum.ButtonStyle. &lt;a href="http://wiki.roblox.com/index.php/ButtonStyle_(Enum)" target="_blank"&gt;More info&lt;/a&gt;</string>
           </Properties>
         </Item>
       </Item>
@@ -3843,19 +3652,7 @@
         <Item class="ReflectionMetadataMember">
           <Properties>
             <string name="Name">Image</string>
-            <string name="summary">Specifies the asset id of the texture to display. &lt;a href="http://wiki.roblox.com/index.php?title=API:Class/ImageButton/Image" target="_blank"&gt;More info&lt;/a&gt; </string>
-          </Properties>
-        </Item>
-        <Item class="ReflectionMetadataMember">
-          <Properties>
-            <string name="Name">ScaleType</string>
-            <string name="summary">Specifies how an image should be displayed. See ScaleType for more info.</string>
-          </Properties>
-        </Item>
-        <Item class="ReflectionMetadataMember">
-          <Properties>
-            <string name="Name">SliceCenter</string>
-            <string name="summary">If ScaleType is set to Slice, this Rect is used to specify the central part of the image. Everything outside of this is considered to be the border.</string>
+            <string name="summary">Specifies the asset id of the texture to display. &lt;a href="http://wiki.roblox.com/index.php/Image" target="_blank"&gt;More info&lt;/a&gt;</string>
           </Properties>
         </Item>
       </Item>
@@ -3921,7 +3718,6 @@
     <Item class="ReflectionMetadataClass">
       <Properties>
         <string name="Name">SelectionPartLasso</string>
-        <bool name="Deprecated">true</bool>
         <string name="summary">A visual line drawn representation between two part objects</string>
         <string name="ExplorerOrder">22</string>
         <string name="ExplorerImageIndex">57</string>
@@ -3930,7 +3726,6 @@
     <Item class="ReflectionMetadataClass">
       <Properties>
         <string name="Name">SelectionPointLasso</string>
-        <bool name="Deprecated">true</bool>
         <string name="summary">A visual line drawn representation between two positions</string>
         <string name="ExplorerOrder">22</string>
         <string name="ExplorerImageIndex">57</string>
@@ -4017,17 +3812,6 @@
         <string name="ExplorerImageIndex">63</string>
       </Properties>
     </Item>
-	  <Item class="ReflectionMetadataClass">
-		  <Properties>
-			  <string name="Name">MeshPart</string>
-			  <string name="ClassCategory">Parts</string>
-			  <bool name="Browsable">true</bool>
-			  <bool name="Insertable">true</bool>
-			  <string name="ExplorerOrder">105</string>
-			  <string name="ExplorerImageIndex">73</string>
-			  <string name="PreferredParent">Model</string>
-		  </Properties>
-	  </Item>
     <Item class="ReflectionMetadataClass">
       <Properties>
         <string name="Name">UnionOperation</string>
@@ -4176,66 +3960,6 @@
           <bool name="Browsable">false</bool>
 	    </Properties>
 	  </Item>
-      <Item class="ReflectionMetadataEnumItem">
-	    <Properties>
-		  <string name="Name">Glacier</string>
-          <bool name="Browsable">false</bool>
-	    </Properties>
-	  </Item>
-      <Item class="ReflectionMetadataEnumItem">
-	    <Properties>
-		  <string name="Name">Snow</string>
-          <bool name="Browsable">false</bool>
-	    </Properties>
-	  </Item>
-      <Item class="ReflectionMetadataEnumItem">
-	    <Properties>
-		  <string name="Name">Sandstone</string>
-          <bool name="Browsable">false</bool>
-	    </Properties>
-	  </Item>
-      <Item class="ReflectionMetadataEnumItem">
-	    <Properties>
-		  <string name="Name">Mud</string>
-          <bool name="Browsable">false</bool>
-	    </Properties>
-	  </Item>
-      <Item class="ReflectionMetadataEnumItem">
-	    <Properties>
-		  <string name="Name">Basalt</string>
-          <bool name="Browsable">false</bool>
-	    </Properties>
-	  </Item>
-      <Item class="ReflectionMetadataEnumItem">
-	    <Properties>
-		  <string name="Name">Ground</string>
-          <bool name="Browsable">false</bool>
-	    </Properties>
-	  </Item>
-      <Item class="ReflectionMetadataEnumItem">
-	    <Properties>
-		  <string name="Name">CrackedLava</string>
-          <bool name="Browsable">false</bool>
-	    </Properties>
-	  </Item>
 	</Item>
-    <Item class="ReflectionMetadataEnum">
-      <Properties>
-        <string name="Name">Status</string>
-        <bool name="Deprecated">true</bool>
-      </Properties>
-      <Item class="ReflectionMetadataEnumItem">
-        <Properties>
-          <string name="Name">Poison</string>
-          <bool name="Deprecated">true</bool>
-        </Properties>
-      </Item>
-      <Item class="ReflectionMetadataEnumItem">
-        <Properties>
-          <string name="Name">Confusion</string>
-          <bool name="Deprecated">true</bool>
-        </Properties>
-      </Item>
-    </Item>
   </Item>
 </roblox>

@@ -81,9 +81,9 @@ local animNames = {
 				{ id = "http://www.roblox.com/asset/?id=182491277", weight = 10 } 
 			},
 	dance3 = {
-				{ id = "http://www.roblox.com/asset/?id=182436935", weight = 10 }, 
-				{ id = "http://www.roblox.com/asset/?id=182491368", weight = 10 }, 
-				{ id = "http://www.roblox.com/asset/?id=182491423", weight = 10 } 
+				{ id = "http://www.roblox.com/asset/?id=11669649889", weight = 10 }, 
+				{ id = "http://www.roblox.com/asset/?id=11669649889", weight = 10 }, 
+				{ id = "http://www.roblox.com/asset/?id=11669649889", weight = 10 } 
 			},
 	laugh = {
 				{ id = "http://www.roblox.com/asset/?id=129423131", weight = 10 } 
@@ -91,8 +91,12 @@ local animNames = {
 	cheer = {
 				{ id = "http://www.roblox.com/asset/?id=129423030", weight = 10 } 
 			},
+		
+	gmod = {
+				{ id = "http://www.roblox.com/asset/?id=11669649889", weight = 10 } 
+			},
 }
-local dances = {"dance1", "dance2", "dance3"}
+local dances = {"dance1", "dance2", "dance3", "gmod"}
 
 -- Existance in this list signifies that it is an emote, the value indicates if it is a looping emote
 local emoteNames = { wave = false, point = false, dance1 = true, dance2 = true, dance3 = true, laugh = false, cheer = false}
