@@ -1,17 +1,27 @@
 {
   "builds": [
     {
-      "src": "app.py",
+      "src": "vortexiwebsite/app/app.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
-    { "src": "/app", "dest": "app.py" },
-    { "src": "/(.*)", "dest": "app.py" }
+    {
+      "src": "/app",
+      "dest": "vortexiwebsite/app/app.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "vortexiwebsite/app/app.py"
+    }
   ],
   "functions": {
-    "app.py": {
-      "runtime": "python3.9"
+    "vortexiwebsite/app/app.py": {
+      "runtime": "python3.9",
+      "maxDuration": 10
     }
+  },
+  "env": {
+    "PYTHON_VERSION": "3.9"
   }
 }
